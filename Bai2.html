@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 2</title>
+</head>
+<body>
+<script>
+    let a = +prompt('Nhap canh a')
+    let b = +prompt('Nhap canh b')
+    let c = +prompt('Nhap canh c')
+    if (a*a===b*b+c*c || b*b===c*c+a*a || c*c===a*a+b*b) {
+       alert('Tam giac tren la tam giac vuong')
+    } else if (a === b && b === c) {
+        alert('Tam giac tren la tam giac deu')
+    }else{
+        alert('3 canh tren khong tao thanh 1 tam giac, hay nhap lai gia tri')
+    }
+</script>
+</body>
+</html>
